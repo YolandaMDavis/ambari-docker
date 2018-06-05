@@ -28,7 +28,8 @@ _os_to_template_path = {
 _os_to_packages = defaultdict(
     lambda: (),
     {
-        'amazonlinux2': ('tar', 'initscripts')
+        'amazonlinux2': ('tar', 'initscripts'),
+        'centos7': ('initscripts',)
     }
 )
 
